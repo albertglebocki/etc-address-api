@@ -1,0 +1,25 @@
+{
+  "name": "etc-address-api",
+  "version": "1.0.0",
+  "description": "API For Generating ETH / ETC Address",
+  "main": "index.js",
+  "dependencies": {
+    "ethereumjs-util": "^7.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dox-it/etc-address-api.git"
+  },
+  "author": "dox",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dox-it/etc-address-api/issues"
+  },
+  "homepage": "https://github.com/dox-it/etc-address-api#readme"
+}
