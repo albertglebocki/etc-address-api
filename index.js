@@ -15,7 +15,7 @@ app.get('/', function(req, res){
         'privatekey' : newPrivateKey
     };
 
-    res.json(response);
+    res.send(response);
 });
 
 app.listen(process.env.PORT || 3000);
