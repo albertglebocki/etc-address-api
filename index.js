@@ -10,13 +10,11 @@ app.get('/', function(req, res){
     var newPrivateKey = newWallet.getPrivateKeyString();
     var newAddress = newWallet.getAddressString();
 
-    var data = {
+    var response = {
         'address' : newAddress, 
         'publickey' : newPublicKey, 
         'privatekey' : newPrivateKey
     };
-
-    var response = JSON.stringify(data, null, '\n');
 
     res.send(response);
 });
