@@ -1,7 +1,6 @@
 'use strict';
 var crypto = require('crypto');
 var ethUtils = require('ethereumjs-util');
-var uuid = require('uuid');
 
 var Wallet = function(pk) {
 	this.privateKey = pk.length == 32 ? pk : Buffer(pk, 'hex');
