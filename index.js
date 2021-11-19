@@ -1,6 +1,6 @@
 var express = require('express');
-var app = express();
 var Wallet = require('./wallet');
+var app = express();
 
 app.get('/', function(req, res){
 
@@ -18,4 +18,4 @@ app.get('/', function(req, res){
     res.send(response);
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 3000);
