@@ -56,3 +56,5 @@ app.listen(process.env.PORT || 3000); // App listening on port 3000
 
 ##### As we can see, generated address is a valid Ethereum Network address
 ![](https://i.ibb.co/swxm5K4/test-addr.png)
+
+###### Keep in mind that when an app isn't used by anyone for a longer period of time, it takes longer to get first response. After that, app should send response faster.
