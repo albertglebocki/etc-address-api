@@ -45,6 +45,10 @@ app.get('/', function(req, res){
 app.listen(process.env.PORT || 3000); // App listening on port 3000
 ```
 
+### Npm Dependencies
+&bull; express<br>
+&bull; request
+
 ### Example Response
 ```json
 { 
