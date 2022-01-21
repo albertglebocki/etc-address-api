@@ -1,3 +1,13 @@
+<!--
+      .o8                                      .o8                        
+     "888                                     "888                        
+ .oooo888   .ooooo.  oooo    ooo          .oooo888   .ooooo.  oooo    ooo 
+d88' `888  d88' `88b  `88b..8P'          d88' `888  d88' `88b  `88.  .8'  
+888   888  888   888    Y888'    8888888 888   888  888ooo888   `88..8'   
+888   888  888   888  .o8"'88b           888   888  888    .o    `888'    
+`Y8bod88P" `Y8bod8P' o88'   888o         `Y8bod88P" `Y8bod8P'     `8'     
+-->
+
 # Ethereum Classic Address Generator 🔐
 ### What is Ethereum Classic?
 **Ethereum Classic** is a decentralized computing platform that executes **smart contracts**. Applications are ran exactly as programmed without the possibility of **censorship**, **downtime**, or **third-party interference**.
