@@ -20,7 +20,7 @@ This API on request generates JSON object with:
 - **Key Pair** (Public And Private Key) **of this Address**<br><br>
 
 ### Usage
-Request URL **`https://etc-api.herokuapp.com`**.<br>
+Request URL **`https://etc-api.glitch.me`**.<br>
 On response you will get a JSON object containing 3 keys (`address`, `publickey`, `privatekey`), as well as their values.<br>
 Then you can fetch this data on your own and use it in your project.<br><br>
 
@@ -31,7 +31,7 @@ var express = require('express');
 var request = require('request');
 var app = express();
 
-let url = "https://etc-api.herokuapp.com"; // Requested URL
+let url = "https://etc-api.glitch.me"; // Requested URL
 
 app.get('/', function(req, res){
 
